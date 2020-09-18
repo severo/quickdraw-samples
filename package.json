@@ -4,8 +4,7 @@
   "description": "100 random draws per country and per category ",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "extract": "node src/index.js",
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/severo/quickdraw-samples#readme",
   "dependencies": {
+    "d3": "^6.1.1",
     "node-fetch": "^2.6.1"
   }
 }
