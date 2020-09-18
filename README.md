@@ -1,18 +1,18 @@
 # quickdraw-samples
 
-100 random draws per country and per category
+Extract 100 random [Quick Draw Dataset](https://github.com/googlecreativelab/quickdraw-dataset) drawings for 10 countries.
 
-## Spoon
+## Extract
 
-First download the [raw data of the spoon drawings](https://storage.cloud.google.com/quickdraw_dataset/full/raw/spoon.ndjson). Note that it requires a Google account.
+First download the raw data for a given word, for example [full_raw_spoon.ndjson](https://storage.cloud.google.com/quickdraw_dataset/full/raw/spoon.ndjson). Note that it requires a Google account.
 
 Then launch
 
 ```js
-npm run extract path/to/full_raw_spoon.ndjson path/to/spoon.ndjson
+npm run extract full_raw_spoon.ndjson spoon.ndjson
 ```
 
-It extract 100 random drawings for 10 countries (JP, EG, US, RU, FR, DE, BR, MX, VN, HK) and place them in `path/to/spoon.ndjson`. The format is https://github.com/googlecreativelab/quickdraw-dataset#the-raw-moderated-dataset.
+It extract 100 random drawings for each of 10 countries (JP, EG, US, RU, FR, DE, BR, MX, VN, HK) and place them in `path/to/spoon.ndjson`. The format is https://github.com/googlecreativelab/quickdraw-dataset#the-raw-moderated-dataset.
 
 ## Credits
 
