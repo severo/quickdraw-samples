@@ -8,7 +8,7 @@ First download the raw data for a given word, for example [full_raw_spoon.ndjson
 
 Then launch
 
-```js
+```bash
 npm run extract full_raw_spoon.ndjson spoon.ndjson
 ```
 
