@@ -4,7 +4,7 @@ Extract 100 random [Quick Draw Dataset](https://github.com/googlecreativelab/qui
 
 ## Extract
 
-First download the raw data for a given word, for example [full_raw_spoon.ndjson](https://storage.cloud.google.com/quickdraw_dataset/full/raw/spoon.ndjson). Note that it requires a Google account.
+First download [raw data](https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/raw) for a given word, for example [full_raw_spoon.ndjson](https://storage.cloud.google.com/quickdraw_dataset/full/raw/spoon.ndjson). Note that it requires a Google account.
 
 Then launch
 
